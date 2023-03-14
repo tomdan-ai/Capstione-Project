@@ -25,25 +25,25 @@
 }
 
 .headings {
-    background-image: url("images/Headimg.jpg");
-    -webkit-text-fill-color: rgba(0, 0, 0, 0);
-    color: transparent;
-    -webkit-background-clip: text;
-    font-family: "Lato", sans-serif;
+  background-image: url("images/Headimg.jpg");
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-family: "Lato", sans-serif;
 }
 
 .small {
-    -webkit-text-fill-color: rgba(0, 0, 0, 0);
-    color: transparent;
-    -webkit-background-clip: text;
-    font-family: "Lato", sans-serif;
-    font-size: 35px;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+  color: transparent;
+  -webkit-background-clip: text;
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
 }
 
 .main {
   background-image: url("images/Headbkg.jpg");
   background-repeat: none;
-  background-size:cover;
+  background-size: cover;
 }
 
 .big {
@@ -62,7 +62,6 @@
   color: lightsteelblue;
 }
 
-
 .timing {
   font-size: 30px;
   font-weight: 900;
@@ -75,6 +74,7 @@
   text-align: center;
   color: #fff;
 }
+
 .cards hr {
   width: 41px;
   text-align: center;
@@ -110,6 +110,7 @@
   color: #ec5242;
   text-align: left;
 }
+
 .p3 {
   margin-left: -25px;
 }
@@ -127,24 +128,23 @@
 }
 
 .join {
-    width: 70%;
-    justify-content: center;
-    height: 80px;
-    color: #fff;
-    background: #ec5242;
-    text-align: center;
-    margin: 40px 70px;
-    padding: 20px 10px;
-    font-family: "Lato", sans-serif;
-    font-size: 24px;
-    cursor: pointer;
+  width: 70%;
+  justify-content: center;
+  height: 80px;
+  color: #fff;
+  background: #ec5242;
+  text-align: center;
+  margin: 40px 70px;
+  padding: 20px 10px;
+  font-family: "Lato", sans-serif;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 .main-img {
   width: 70px;
   height: 15%;
 }
-
 
 /* SPEAKERS */
 
