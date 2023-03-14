@@ -214,3 +214,9 @@ em {
   color: #fff;
   border-radius: 0;
 }
+
+@media screen(max-width: 768px) {
+  .main {
+    background-attachment: fixed;
+  }
+}
