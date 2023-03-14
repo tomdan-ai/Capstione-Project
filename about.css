@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+* {
+  font-family: "lato", sans-serif;
+}
+
+.bar {
+  display: block;
+  width: 20px;
+  height: 4px;
+  margin: 5px auto;
+  margin-left: 5px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+.style-me {
+  width: 50px;
+  margin-left: 20px;
+}
+
+.flez {
+  display: flex;
+}
+
+.headings {
+  font-family: "Lato", sans-serif;
+  color: black;
+}
+
+.small {
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+
+.main {
+  /* background-image: url("images/dev.jpg"); */
+  background-color: grey;
+  background-repeat: none;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.big {
+  color: rgb(238, 66, 14);
+  font-size: 50px;
+  text-align: center;
+}
+
+.main-paragraph {
+  width: 100%;
+  margin-left: -97px;
+}
+
+.p1 {
+  color: black;
+  border: 3px solid #fff;
+  box-shadow: 0 5px 5px rgb(222 222 222 / 82%), 0 5px 5px rgb(222 222 222 / 82%);
+  padding: 20px 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-bottom: 40px;
+  width: 90%;
+  margin-left: 90px;
+}
+
+.linki {
+  color: black;
+  font-weight: 900;
+}
+
+.timing {
+  font-size: 30px;
+  font-weight: 900;
+  color: gray;
+}
+
+.contact {
+  text-align: center;
+}
+
+/* Summit section */
+
+.logo-boder {
+  text-align: center;
+  font-size: 15px;
+  color: black;
+  border: 3px solid #fff;
+  box-shadow: 0 5px 5px rgb(222 222 222 / 82%), 0 5px 5px rgb(222 222 222 / 82%);
+  padding: 20px 70px;
+  width: 20%;
+  margin-left: 150px;
+}
+
+.summit-head {
+  width: 100%;
+  text-align: center;
+}
+
+.summit-images1 {
+  background-color: rgb(238, 66, 14);
+  background-image: url("images/Summit1.jpeg");
+  background-repeat: none;
+  background-size: cover;
+  width: 90%;
+}
+
+.book {
+  position: relative;
+  opacity: 0.8;
+}
+
+.hi-img {
+  width: 65%;
+  display: block;
+  height: 100%;
+  margin-left: 100px;
+  padding-bottom: 45px;
+}
+
+.info {
+  padding: 80px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.info h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.partners {
+  background-color: rgba(44, 40, 40, 0.918);
+  margin-bottom: -25px;
+}
+
+.partners h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.sponsor-img1 {
+  display: flex;
+  gap: 65px;
+  height: 80px;
+}
+
+.sponsor-img2 {
+  display: flex;
+  gap: 55px;
+  margin-left: 89px;
+}
+
+.sp-img1 {
+  height: 37px;
+}
+
+.sp-img2 {
+  height: 47px;
+}
+
+.sp-img4 {
+  height: 20px;
+}
+
+.sp-img5 {
+  height: 20px;
+}
+
+.ft-logo {
+  width: 100px;
+  margin-top: 24px;
+}
+
+.footer-div {
+  display: flex;
+  gap: 50px;
+  margin-top: 10px;
+}
