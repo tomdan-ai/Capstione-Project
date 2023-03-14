@@ -8,16 +8,51 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div>
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <img src="images/Logo.png" alt="GDC Logo" class="style-me">
-        </nav>
+    <header class="header">
+      <ul id="header-list">
+        <li class="header-item icon"><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li class="header-item icon"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li class="header-item"><a href="#">English</a></li>
+        <li class="header-item"><a href="#">My Page</a></li>
+        <li class="header-item"><a href="#">Logout</a></li>
+    </ul>
     </header>
+    <nav>
+      <div>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </div>
+      <a href="index.html"><img src="images/Logo.png" alt="GDC Logo" class="style-me"></a>
+
+      <div class="nav-dir">
+        <ul class="nav-menu hide">
+            <li class="nav-item">
+                <a class="nav_link home-nav" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav_link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav_link" href="#program">Program</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav_link" href="#join">Join</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav_link" href="#partners">Sponsors</a>
+            </li>
+            <li class="nav-item bb">
+                <a class="nav_link" href="#news">News</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+</div>
+  </nav>
+
+
+
     <main class="main">
         <section>
             <div class="headings">
@@ -30,7 +65,7 @@
                     creating a positive change with people from over 80 countries is taking
                     place in October. In Nigeria.
                 </p>
-            <div>
+            <div class="location">
                 <p class="timing">2023.10.15(THU) - 16(FRI)</p>
                 <P>@Jenissi Centre. Art Uyo museum and more</P>
             </div>
@@ -42,9 +77,8 @@
     <section class="cards-section">
         <div class="card-head">
         <h1>Main Program</h1>
-        <hr>
         </div>
-
+        <div class="hl">-</div>
         <div class="cards">
         <!-- CARD1 -->
             <div class="workcard">
@@ -83,6 +117,7 @@
             </div>
         </div>
         <button type="submit" class="join">Join Summit 2022</button>
+        <p class="see-prg"><a href="#">See the whole Program</a></p>
     </section>
 
     <!--ABOUT SECTION-->
@@ -192,5 +227,37 @@
         <button type="submit" class="btn" onclick="myFunction()">MORE 
             <i class="fa fa-angle-down" aria-hidden="true"></i>
         </button>
+
+         <!--SPONSORS-->
+    <section class="partners" id="partners">
+      <div>
+          <h1>Partners</h1>
+      </div>
+      <div class="sponsor-img1">
+          <img src="images/coke.png" alt="" class="sp-img1">
+          <img src="images/githubpng.png" alt=""  class="sp-img2"> 
+          <img src="images/google.jpeg" alt=""  class="sp-img3">
+      </div>
+      <div class="sponsor-img2">
+          <img src="images/Microverse.png" alt=""  class="sp-img4">
+          <img src="images/ms.png" alt=""  class="sp-img5">
+      </div>
+  </section>
+  <footer class="footer">
+      <div class="footer-div">
+          <img src="images/Logo.png" alt="Footer logo" class="ft-logo">
+          <div>
+          <p>2023 Creative Commons Korea.</p>
+          <p>말을 냇가에 끌고 갈 수는 있어도 억지로 물을 먹일 수는 없다
+
+            (mareul  naetgae kkeulgo gal suneun isseodo eokjiro mureul meogil suneun eopda) 
+            
+            Literal Translation: You can lead a horse and go to a stream but you can’t make it drink water through its own will.
+          </p>
+          <p>Some Rights Reserved</p>
+          </div>
+      </div>
+  </footer>
+
 </body>
 </html>
