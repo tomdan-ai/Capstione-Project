@@ -4,6 +4,14 @@
   font-family: "lato", sans-serif;
 }
 
+.hide {
+  display: none;
+}
+
+#header-list {
+  display: none;
+}
+
 .bar {
   display: block;
   width: 20px;
@@ -36,7 +44,7 @@
 }
 
 .main {
-  /* background-image: url("images/dev.jpg"); */
+  background-image: url("images/speaker-giving-talk.jpg");
   background-color: grey;
   background-repeat: none;
   background-size: cover;
@@ -180,4 +188,196 @@
   display: flex;
   gap: 50px;
   margin-top: 10px;
+}
+
+.show {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .fa.fa.fa-twitter,
+  .fa.fa.fa-facebook {
+    font-family: "Font Awesome 6 Brands", sans-serif;
+    font-weight: 400;
+  }
+
+  .fa.fa-facebook,
+  .fa.fa-twitter {
+    font-family: "Font Awesome 6 Brands", sans-serif;
+    font-weight: 400;
+  }
+
+  .header {
+    background-color: #272a31;
+    margin-top: -15px;
+    margin-bottom: -35px;
+  }
+
+  #header-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    padding-right: 20%;
+  }
+
+  .header-item {
+    padding: 10px 10px;
+    color: #fbfefb;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  #header-list .icon {
+    font-size: 18px;
+  }
+
+  .header-item > a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s ease;
+  }
+
+  .nav-menu {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-left: 650px;
+  }
+
+  .nav-menu a {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .bb {
+    border: #ec5242 solid 4px;
+    padding: 2px 15px 2px 15px;
+    margin-top: -5px;
+  }
+
+  .nav-menu:hover {
+    color: #ec5242;
+  }
+
+  .bar {
+    display: none;
+  }
+
+  .style-me {
+    margin-top: 20px;
+    margin-bottom: -60px;
+    margin-left: 200px;
+    width: 10%;
+  }
+
+  .headings {
+    text-align: center;
+  }
+
+  .main-paragraph {
+    text-align: center;
+    width: 50%;
+  }
+
+  .small {
+    margin-bottom: -40px;
+  }
+
+  .p1 {
+    margin-left: 70%;
+  }
+
+  .summit-section p {
+    text-align: center;
+  }
+
+  .hid {
+    display: none;
+  }
+
+  .show {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .logo-boder {
+    margin-left: 450px;
+  }
+
+  .image-overlay {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hi-img {
+    width: 40%;
+    height: 100%;
+  }
+
+  .hi-img:nth-child(2) {
+    width: 45%;
+    margin-left: 30px;
+  }
+
+  .sponsor-img1 {
+    display: flex;
+    gap: 120px;
+    height: 80px;
+    margin-left: 550px;
+  }
+
+  .sponsor-img2 {
+    display: flex;
+    gap: 55px;
+    margin-left: 120px;
+    margin-top: -60px;
+  }
+
+  .sp-img1 {
+    height: 60px;
+  }
+
+  .sp-img2 {
+    height: 70px;
+  }
+
+  .sp-img4 {
+    height: 30px;
+  }
+
+  .sp-img5 {
+    height: 30px;
+  }
+
+  .footer {
+    margin-bottom: -40px;
+    margin-top: -25px;
+  }
+
+  .ft-logo {
+    width: 100px;
+    margin-top: 24px;
+    margin-left: 300px;
+    margin-bottom: 17px;
+  }
+
+  .footer-div {
+    display: flex;
+    gap: 50px;
+    margin-top: 10px;
+  }
+
+  .partners h1 {
+    text-align: center;
+    margin-top: -5px;
+  }
+
+  .partners {
+    background-color: #272a31;
+    padding-bottom: 30px;
+    padding-top: 10px;
+  }
 }
