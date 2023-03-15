@@ -2,6 +2,8 @@
 
 * {
   font-family: "lato", sans-serif;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .hide {
@@ -194,6 +196,10 @@
   display: none;
 }
 
+.korean {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .fa.fa.fa-twitter,
   .fa.fa.fa-facebook {
@@ -358,16 +364,22 @@
   }
 
   .ft-logo {
-    width: 100px;
-    margin-top: 24px;
-    margin-left: 300px;
+    width: 190px;
+    margin-top: 47px;
+    margin-left: 200px;
     margin-bottom: 17px;
+    height: 70px;
   }
 
   .footer-div {
+    background-color: #272a31;
     display: flex;
     gap: 50px;
     margin-top: 10px;
+  }
+
+  .footer-div p {
+    color: #fff;
   }
 
   .partners h1 {
@@ -376,8 +388,13 @@
   }
 
   .partners {
+    display: none;
     background-color: #272a31;
     padding-bottom: 30px;
     padding-top: 10px;
+  }
+
+  .korean {
+    display: block;
   }
 }
