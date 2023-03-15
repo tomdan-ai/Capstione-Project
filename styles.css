@@ -5,6 +5,10 @@
   margin-left: 1px;
 }
 
+#hambuger {
+  margin-bottom: -50px;
+}
+
 .bar {
   display: block;
   width: 20px;
@@ -16,9 +20,69 @@
   background-color: black;
 }
 
+.nav-menu {
+  display: none;
+}
+
+#header-list {
+  display: none;
+}
+
+.mobile-menu {
+  list-style-type: none;
+}
+
+.mobile-nav {
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  margin-left: 0;
+  text-align: center;
+  transition: 0.3s;
+  padding-top: 10px;
+  background-color: rgba(236, 82, 66, 0.8);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  top: 0;
+  display: none;
+}
+
+.mobile-nav li {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 50px;
+  margin-left: -20px;
+  margin-top: 20px;
+  text-align: left;
+  color: #fff;
+}
+
+.diva {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-toggle {
+  display: flex;
+  flex-direction: column;
+}
+
+.close-btn {
+  color: #fff;
+  font-size: 34px;
+  padding: 0 7px;
+  float: right;
+  margin-left: -85%;
+  margin-bottom: -40px;
+}
+
 .style-me {
+  display: none;
   width: 50px;
-  margin-left: 20px;
+  margin-left: 5px;
+  margin-bottom: -25px;
 }
 
 .flez {
@@ -142,6 +206,14 @@
   cursor: pointer;
 }
 
+.see-prg {
+  display: none;
+}
+
+.come-go {
+  display: none;
+}
+
 .main-img {
   width: 70px;
   height: 15%;
@@ -216,8 +288,65 @@ em {
   border-radius: 0;
 }
 
-@media screen and (min-width: 768px) {
+.partners {
+  display: none;
+  background-color: rgba(44, 40, 40, 0.918);
+  margin-bottom: -25px;
+}
 
+.partners h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.sponsor-img1 {
+  display: flex;
+  gap: 65px;
+  height: 80px;
+}
+
+.sponsor-img2 {
+  display: flex;
+  gap: 55px;
+  margin-left: 89px;
+}
+
+.sp-img1 {
+  height: 37px;
+}
+
+.sp-img2 {
+  height: 47px;
+}
+
+.sp-img4 {
+  height: 20px;
+}
+
+.sp-img5 {
+  height: 20px;
+}
+
+.ft-logo {
+  width: 100px;
+  margin-top: 24px;
+}
+
+.footer-div {
+  display: none;
+  gap: 50px;
+  margin-top: 10px;
+}
+
+.show {
+  display: none;
+}
+
+.korean {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
   .fa.fa.fa-twitter,
   .fa.fa.fa-facebook {
     font-family: "Font Awesome 6 Brands", sans-serif;
@@ -229,7 +358,6 @@ em {
     font-family: "Font Awesome 6 Brands", sans-serif;
     font-weight: 400;
   }
-
 
   .header {
     background-color: #272a31;
@@ -289,6 +417,7 @@ em {
   }
 
   .style-me {
+    display: block;
     margin-top: 20px;
     margin-bottom: -60px;
     margin-left: 200px;
@@ -395,6 +524,7 @@ em {
   }
 
   .see-prg {
+    display: block;
     margin-left: 600px;
     padding-bottom: 50px;
   }
@@ -466,6 +596,7 @@ em {
   }
 
   .partners {
+    display: block;
     background-color: #272a31;
     padding-bottom: 30px;
     padding-top: 10px;
