@@ -217,6 +217,20 @@ em {
 }
 
 @media screen and (min-width: 768px) {
+
+  .fa.fa.fa-twitter,
+  .fa.fa.fa-facebook {
+    font-family: "Font Awesome 6 Brands", sans-serif;
+    font-weight: 400;
+  }
+
+  .fa.fa-facebook,
+  .fa.fa-twitter {
+    font-family: "Font Awesome 6 Brands", sans-serif;
+    font-weight: 400;
+  }
+
+
   .header {
     background-color: #272a31;
     margin-top: -15px;
