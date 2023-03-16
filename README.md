@@ -44,7 +44,7 @@ REQUIRED SECTIONS:
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [CONFERENCE-PAGE] <a name="about-project"></a>
-This is the webpage runing a campaigne for a developers conference coming up
+<p>This is the webpage runing a campaigne for a developers conference coming up <a href="https://www.loom.com/share/76a3bfdeabaf40169fecb6fe5a9545cc">heres</a> a workthrough</p>
 
 **[your_project__name]** is CONFERENCE PAGE
 
@@ -68,8 +68,8 @@ JAVASCRIPT
 <!-- LIVE DEMO -->
 
 
-## 🚀 Live Demo <a name="https://tomdan-ai.github.io/My-Portfolio/"></a>
-### <p>Click <a href="">here</a> for the live demo</p>
+## 🚀 Live Demo <a name="https://tomdan-ai.github.io/Capstione-Project/index.html"></a>
+### <p>Click <a href="https://tomdan-ai.github.io/Capstione-Project/index.html">here</a> for the live demo</p>
 
 
 > Add a link to your deployed project.
