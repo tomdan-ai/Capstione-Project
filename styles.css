@@ -90,7 +90,7 @@
 }
 
 .headings {
-  background-image: url("images/Headimg.jpg");
+  background-image: url("images/Header.jpg");
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
   color: transparent;
   -webkit-background-clip: text;
@@ -124,14 +124,16 @@
   width: 100%;
   font-weight: 900;
   font-size: 15px;
-  color: lightsteelblue;
+  color: #000;
 }
 
 .timing {
   font-size: 30px;
   font-weight: 900;
-  color: gray;
+  color: #272a31;
 }
+
+
 
 /* Cards */
 

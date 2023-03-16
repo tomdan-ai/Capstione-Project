@@ -164,6 +164,16 @@
   text-align: center;
 }
 
+.hid {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.commit {
+  text-align: center;
+}
+
 .summit-images1 {
   background-color: rgb(238, 66, 14);
   background-image: url("images/Summit1.jpeg");
