@@ -1,170 +1,109 @@
-<a name="readme-top"></a>
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-  <h3><b>README</b></h3>
-
-</div>
-
+<h3 id = "readme-top"><b>Capstone Project </b></h3>
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
-
+- [📖 Title](#Global Developers Conference)
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [🚀 Live Demo from loom](#Live-Loom-demo)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
+- [🙏 Credit](#Credit)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
+- [❓ FAQ](#faq)
 - [📝 License](#license)
+
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [CONFERENCE-PAGE] <a name="about-project"></a>
-<p>This is the webpage runing a campaigne for a developers conference coming up <a href="https://www.loom.com/share/76a3bfdeabaf40169fecb6fe5a9545cc">heres</a> a workthrough</p>
-
-**[your_project__name]** is CONFERENCE PAGE
-
-## 🛠 Built With <a name="built-with"></a>
-HTML
-CSS
-JAVASCRIPT
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
-
-- **[HTML_and_CSS]**
-- **[JAVASCRIPT]**
-- **[LINTERS]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
+# 📖 [Capstone Project] <a name="about-project">https://tomdan-ai.github.io/Capstone-Project/index.html</a>
 
 
-## 🚀 Live Demo <a name="https://tomdan-ai.github.io/Capstione-Project/index.html"></a>
-### <p>Click <a href="https://tomdan-ai.github.io/Capstione-Project/index.html">here</a> for the live demo</p>
+
+# Global Developers Conference
+This Capstone Project is based on an online website for a conference for developers round the world. 
+ You will learn how to use the different niche in tech to empower, enlighthen and grow to a succesful career in the Tech field. 
+
+## Built With
+
+- Html
+- Css
+- JavaScript
+
+### Key Features <a name="key-features">
+- **[]** Capstone Project: built with CSS, HTML and JavaScript.
+- **[]** Capstone Project: Mobile Version.
+- **[]** Capstone Project: The Homepage.
+- **[]** Capstone Project: Desktop version.
+- **[]** Capstone Project: About page for both mobile and desktop version.
 
 
-> Add a link to your deployed project.
+## Live Demo
 
-- [Live Demo Link](https://google.com)
+Click <a href="https://tomdan-ai.github.io/Capstone-Project/index.html">Here</a> to view live demo
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Live demo walkthrough
+ 
+[Live Demo video from loom ](https://www.loom.com/share/b05788a3f4de4a45a22828421fee65c4)
 
+## Getting Started
 
-To get a local copy up and running, follow these steps.
--Clone the repository: https://github.com/tomdan-ai/Capstione-Project.git
--Install Linters
--Create HTML and CSS files
--Write your code
--Push to repository
+To run this project clone it with `https://github.com/tomdan-ai/Capstone-Project.git`
+then run life from a browser
+
+To get a local copy.
 
 ### Prerequisites
-
 In order to run this project you need:
- 
 
-### Setup
-
-Clone this repository to your desired folder:
-cd Folder
-git clone https://github.com/tomdan-ai/Capstione-Project.git
+1. A code Editor, Visual Studio Code is highly recommended.
+2. knowledge of HTML,CSS and JavaScript.
 
 ### Install
 
-Install this project with:
--Markup Languages
--A folder for images
--Linters
--CSS for styling
-Javascript
+Install linters to handle some common Errors, You can have description about [Linters here](https://github.com/microverseinc/linters-config)
 
-### Usage
--Run the the webpage Live with VS Code 
+👤 **TOM DANIEL**
 
-### Run tests
-
-To run tests, run the following command:
-
-### Deployment
-
-You can deploy this project using: [github pages]
-
+- GitHub: [@tomdan-ai](https://github.com/tomdan-ai)
+- Twitter: [@KingWebstar](https://twitter.com/tomudoh1)
+- LinkedIn: [Tom Udoh](https://linkedin.com/in/https://www.linkedin.com/in/tom-udoh-a89046256/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FUTURE FEATURES -->
 
-## 👥 Authors <a name="authors"></a>
-
-
-👤 **TOM-DANIEL**
-
-- GitHub: [tomdan-ai](https://github.com/tomdan-ai)
--Linkedin: [Tom-Udoh](https://www.linkedin.com/in/tom-udoh-a89046256/)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## 🔭 Future Features <a name="future-features"></a>
 
+- [ ] **[new_feature_1]** Add more dynamics via Javascript.
+- [ ] **[new_feature_2]** Capstone Project: Detailed popup window.
+- [ ] **[new_feature_3]** Capstone Project: validated contact form.
+- [ ] **[new_feature_4]** Capstone Project: preserved data in the browser.
+- [ ] **[new_feature_5]** Every other page of the website
 
-- [] **[Javascript]**
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Credit
 
+[@Cindy Shin](https://www.behance.net/adagio07) Thanks for this amazing design
 
-## 🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/tomdan-ai/Capstone-Project/issues).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Show your support
 
+Give a ⭐️ if you like this project! and follow
 
-## ⭐️ Show your support <a name="support"></a>
+## Acknowledgments
 
-If you like this project hit the follow button on my profile
+- I am grateful to My partners and Amarachi Dimpka for the Design
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## 📝 License
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
-I would like to thank my Partners.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE.md) licensed.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is [MIT](./MIT.md) licensed.
